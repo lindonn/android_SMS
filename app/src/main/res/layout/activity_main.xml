@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical">
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="Numero: "
+        android:textStyle="bold"
+        android:textColor="#FF0000"
+        android:gravity="left"
+        />
+    <EditText
+        android:id="@+id/numero"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:hint="Entrez le Numero"
+        android:inputType="text"
+        />
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="Message : "
+        android:textStyle="bold"
+        android:textColor="#FF0000"
+        android:gravity="left"
+        />
+    <EditText
+        android:id="@+id/message"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:hint="Entrez votre Mesage"
+        android:inputType="text"
+        />
+    <Button
+        android:id="@+id/envoyer"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Envoye"
+        />
+</LinearLayout>
